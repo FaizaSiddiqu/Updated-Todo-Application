@@ -7,6 +7,27 @@ let todos : string[] = []
 let condition = true;
 
 console.log(chalk.magenta.bold("\n \t Welcom To My Todo - List Application \n"));
+// while(condition) {
+// let todoQuestion = await inquirer.prompt(
+//     [
+//         {
+//             name: "firstQuestion",
+//             message: chalk.blue("Enter your  task:"),
+//             type:"input"
+//         },
+//         {
+//             name: "secondQuestion",
+//             type:"confirm",
+//             message: chalk.blue("Do you want to add more task in your todos:"),
+//             default: "false"
+//         }
+//     ]
+// )
+// todos.push(todoQuestion.firstQuestion)
+// console.log(todos)
+// condition = todoQuestion.secondQuestion
+// }
+
 
 let task = async() => {
     while(condition){
